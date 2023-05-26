@@ -19,7 +19,7 @@ public class Clase {
 
             // Comprobar si el DNI cumple con el formato de 8 números y 1 letra
             if (!dni.matches("\\d{8}[A-Za-z]")) {
-                System.out.println("El DNI debe tener 8 números y 1 letra.");
+                System.out.println("EL DNI DEBE SER ARGENTINO Y DEBE TENER AL MENOS 8 NÚMEROS Y 1 LETRA.");
             } else {
                 System.out.println("Edad y DNI válidos.");
             }
