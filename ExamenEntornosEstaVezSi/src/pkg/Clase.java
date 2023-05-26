@@ -6,7 +6,7 @@ public class Clase {
         Scanner scanner = new Scanner(System.in);
 
         // Pedir edad al usuario
-        System.out.print("Introduce tu edad: ");
+        System.out.print("Introduce tu avión favorito: ");
         int edad = scanner.nextInt();
 
         // Comprobar si la edad está entre 18 y 65
